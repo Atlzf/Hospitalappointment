@@ -4,23 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e63be031-438b-4665-9200-d32d68e992f9" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/AppointmentInfoView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/AppointmentInfoView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/AppointmentView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/AppointmentView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/CancelAppointmentView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/CancelAppointmentView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/MainView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/MainView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/RegisterView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/RegisterView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/ReviewView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/ReviewView.java" afterDir="false" />
+    <list default="true" id="e63be031-438b-4665-9200-d32d68e992f9" name="更改" comment="View创建">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/d7f6e549-9d4c-4e6a-a348-e76739a145c0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d7f6e549-9d4c-4e6a-a348-e76739a145c0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d7f6e549-9d4c-4e6a-a348-e76739a145c0/storage_v2/_src_/schema/hospitalsystem.6Vx2nw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d7f6e549-9d4c-4e6a-a348-e76739a145c0/storage_v2/_src_/schema/hospitalsystem.6Vx2nw.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/AppointmentView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/AppointmentView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/MainView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/MainView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/db/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/db/database.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +52,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE": "ToolWindow",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE": "left",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -65,9 +63,23 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "E:/workspace/java/system/src/Main.java",
+    "settings.editor.selected.configurable": "project.propGUI",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "RunConfigurationTargetLRU": [
+      "d7f6e549-9d4c-4e6a-a348-e76739a145c0"
+    ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="database.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/resources/db/database.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="d7f6e549-9d4c-4e6a-a348-e76739a145c0" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -77,7 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1716274910095</updated>
       <workItem from="1716274911189" duration="8769000" />
-      <workItem from="1716299396945" duration="705000" />
+      <workItem from="1716299396945" duration="6108000" />
+      <workItem from="1716707223676" duration="1734000" />
     </task>
     <task id="LOCAL-00001" summary="dao内容创建">
       <option name="closed" value="true" />
@@ -103,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716285036649</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="View创建">
+      <option name="closed" value="true" />
+      <created>1716300156275</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716300156275</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +155,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dao内容创建" />
-    <option name="LAST_COMMIT_MESSAGE" value="dao内容创建" />
+    <MESSAGE value="View创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="View创建" />
   </component>
 </project>
