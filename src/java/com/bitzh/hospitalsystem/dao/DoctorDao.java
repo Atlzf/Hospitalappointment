@@ -1,5 +1,6 @@
 package java.com.bitzh.hospitalsystem.dao;
 
+import java.com.bitzh.hospitalsystem.Utils.DatabaseConnectionManager;
 import java.util.*;
 import java.sql.*;
 import java.com.bitzh.hospitalsystem.model.*;
@@ -9,12 +10,13 @@ import java.com.bitzh.hospitalsystem.model.*;
 public class DoctorDao {
     private Connection conn;
     // 构造函数，用于建立数据库连接
-    public DoctorDao(Connection conn) {
-        this.conn = conn;
+    public DoctorDao(Connection conn)throws SQLException {
+        this.conn = DatabaseConnectionManager.getConnection();
     }
 
     //医生登录
     public Doctor Login(String username,String password)throws SQLException {
+        //医生登录
         String sql = "select * from Doctor where username = ? and password = ?";
         PreparedStatement stmt = conn.prepareStatement(sql);
         stmt.setString(1, username);//将第一个问好填充为username，防止注入
@@ -30,6 +32,7 @@ public class DoctorDao {
         }
     }
     public List<Appointment> getDoctorAppointments(int doctorId) throws SQLException {
+        // 获取医生的预约信息
         List<Appointment> appointments = new ArrayList<>();
         String sql = "SELECT * FROM Appointment WHERE doctor_id = ?";
         PreparedStatement stmt = conn.prepareStatement(sql);
