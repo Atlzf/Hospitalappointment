@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DatabaseConnectionManager {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/HospitalSystem";
-    private static final String USER = "admin";
+    private static final String USER = "root";
     private static final String PASS = "flan0204";
 
     public static Connection getConnection() throws SQLException {
