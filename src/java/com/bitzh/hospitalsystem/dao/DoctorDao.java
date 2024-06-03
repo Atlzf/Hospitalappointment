@@ -1,5 +1,6 @@
 package java.com.bitzh.hospitalsystem.dao;
 
+import java.util.*;
 import java.sql.*;
 import java.com.bitzh.hospitalsystem.model.*;
 
@@ -11,6 +12,8 @@ public class DoctorDao {
     public DoctorDao(Connection conn) {
         this.conn = conn;
     }
+
+    //医生登录
     public Doctor Login(String username,String password)throws SQLException {
         String sql = "select * from Doctor where username = ? and password = ?";
         PreparedStatement stmt = conn.prepareStatement(sql);
@@ -25,6 +28,25 @@ public class DoctorDao {
         }else{
             return null;
         }
+    }
+    public List<Appointment> getDoctorAppointments(int doctorId) throws SQLException {
+        List<Appointment> appointments = new ArrayList<>();
+        String sql = "SELECT * FROM Appointment WHERE doctor_id = ?";
+        PreparedStatement stmt = conn.prepareStatement(sql);
+        stmt.setInt(1, doctorId);
+        ResultSet rs = stmt.executeQuery();
+        while(rs.next()){
+            Appointment appointment = new Appointment();
+            // 填充预约信息
+            // 注意：这里假设你的Appointment类有相应的setter方法
+            // 你需要根据你的Appointment类的实际情况进行修改
+            appointment.setId(rs.getInt("id"));
+            appointment.setUserId(rs.getInt("user_id"));
+            appointment.setDoctorId(rs.getInt("doctor_id"));
+            appointment.setAppointmentTime(rs.getTimestamp("appointment_time"));
+            appointments.add(appointment);
+        }
+        return appointments;
     }
 
 }
