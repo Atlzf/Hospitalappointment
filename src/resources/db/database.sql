@@ -44,3 +44,6 @@ CREATE TABLE Admin (
                        username VARCHAR(50) NOT NULL,
                        password VARCHAR(50) NOT NULL
 );
+ALTER TABLE Doctor
+    ADD username VARCHAR(50),
+    ADD password VARCHAR(50);
