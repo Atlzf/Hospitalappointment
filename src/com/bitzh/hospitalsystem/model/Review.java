@@ -1,13 +1,10 @@
-package java.com.bitzh.hospitalsystem.model;
+package com.bitzh.hospitalsystem.model;
 
-
-import java.sql.Timestamp;
-
-public class Appointment {
+public class Review {
     private int id;
     private int userId;
     private int doctorId;
-    private Timestamp appointmentTime;
+    private String content;
 
     // Getters and Setters
     public int getId() {
@@ -34,11 +31,11 @@ public class Appointment {
         this.doctorId = doctorId;
     }
 
-    public Timestamp getAppointmentTime() {
-        return appointmentTime;
+    public String getContent() {
+        return content;
     }
 
-    public void setAppointmentTime(Timestamp appointmentTime) {
-        this.appointmentTime = appointmentTime;
+    public void setContent(String content) {
+        this.content = content;
     }
 }

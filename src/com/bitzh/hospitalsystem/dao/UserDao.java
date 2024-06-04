@@ -1,7 +1,10 @@
-package java.com.bitzh.hospitalsystem.dao;
+package com.bitzh.hospitalsystem.dao;
 
-import java.com.bitzh.hospitalsystem.Utils.DatabaseConnectionManager;
-import java.com.bitzh.hospitalsystem.model.*;
+import com.bitzh.hospitalsystem.Utils.DatabaseConnectionManager;
+import com.bitzh.hospitalsystem.model.Appointment;
+import com.bitzh.hospitalsystem.model.User;
+
+import com.bitzh.hospitalsystem.model.*;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

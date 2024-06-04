@@ -1,6 +1,6 @@
-package java.com.bitzh.hospitalsystem.dao;
+package com.bitzh.hospitalsystem.dao;
 
-import java.com.bitzh.hospitalsystem.Utils.DatabaseConnectionManager;
+import com.bitzh.hospitalsystem.Utils.DatabaseConnectionManager;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

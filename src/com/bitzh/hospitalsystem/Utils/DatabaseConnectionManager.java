@@ -1,4 +1,4 @@
-package java.com.bitzh.hospitalsystem.Utils;
+package com.bitzh.hospitalsystem.Utils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

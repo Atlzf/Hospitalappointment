@@ -1,4 +1,4 @@
-package java.com.bitzh.hospitalsystem.model;
+package com.bitzh.hospitalsystem.model;
 
 public class Admin {
     private int id;

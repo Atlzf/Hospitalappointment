@@ -5,10 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e63be031-438b-4665-9200-d32d68e992f9" name="更改" comment="更改">
+      <change afterPath="$PROJECT_DIR$/src/com/bitzh/hospitalsystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bitzh/hospitalsystem/view/LoginFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d7f6e549-9d4c-4e6a-a348-e76739a145c0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d7f6e549-9d4c-4e6a-a348-e76739a145c0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d7f6e549-9d4c-4e6a-a348-e76739a145c0/storage_v2/_src_/schema/hospitalsystem.6Vx2nw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d7f6e549-9d4c-4e6a-a348-e76739a145c0/storage_v2/_src_/schema/hospitalsystem.6Vx2nw.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/dao/AdminDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/dao/AppointmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/dao/AppointmentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/model/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/model/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/Utils/DatabaseConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bitzh/hospitalsystem/Utils/DatabaseConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bitzh/hospitalsystem/dao/AdminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/dao/AppointmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bitzh/hospitalsystem/dao/AppointmentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/dao/DoctorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bitzh/hospitalsystem/dao/DoctorDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/dao/ReviewDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bitzh/hospitalsystem/dao/ReviewDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bitzh/hospitalsystem/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/model/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bitzh/hospitalsystem/model/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/model/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bitzh/hospitalsystem/model/Appointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bitzh/hospitalsystem/model/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/model/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bitzh/hospitalsystem/model/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bitzh/hospitalsystem/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/login.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/bitzh/hospitalsystem/view/login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/db/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/db/database.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +98,24 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.Main">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.bitzh.hospitalsystem.Main" />
+      <module name="system" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="database.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/src/resources/db/database.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="d7f6e549-9d4c-4e6a-a348-e76739a145c0" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="应用程序.Main" />
+      <item itemvalue="数据库脚本.database.sql" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,7 +131,7 @@
       <workItem from="1717317552161" duration="301000" />
       <workItem from="1717425853027" duration="7629000" />
       <workItem from="1717434602712" duration="157000" />
-      <workItem from="1717460925242" duration="4895000" />
+      <workItem from="1717460925242" duration="5922000" />
     </task>
     <task id="LOCAL-00001" summary="dao内容创建">
       <option name="closed" value="true" />
@@ -210,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717501614553</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="更改">
+      <option name="closed" value="true" />
+      <created>1717510178473</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717510178473</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,9 +1,10 @@
-package java.com.bitzh.hospitalsystem.dao;
+package com.bitzh.hospitalsystem.dao;
 
-import java.com.bitzh.hospitalsystem.Utils.DatabaseConnectionManager;
+import com.bitzh.hospitalsystem.Utils.DatabaseConnectionManager;
+
 import java.util.*;
 import java.sql.*;
-import java.com.bitzh.hospitalsystem.model.*;
+import com.bitzh.hospitalsystem.model.*;
 
 
 //包含了与医生表进行交互的方法，如添加医生、删除医生、修改医生信息、查看医生列表和查看医生信息
@@ -15,7 +16,7 @@ public class DoctorDao {
     }
 
     //医生登录
-    public Doctor Login(String username,String password)throws SQLException {
+    public Doctor Login(String username, String password)throws SQLException {
         //医生登录
         String sql = "select * from Doctor where username = ? and password = ?";
         PreparedStatement stmt = conn.prepareStatement(sql);

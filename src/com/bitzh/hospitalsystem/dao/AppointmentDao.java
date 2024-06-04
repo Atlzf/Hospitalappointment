@@ -1,9 +1,9 @@
-package java.com.bitzh.hospitalsystem.dao;
+package com.bitzh.hospitalsystem.dao;
 
-import java.com.bitzh.hospitalsystem.model.Appointment;
+import com.bitzh.hospitalsystem.model.Appointment;
 import java.sql.*;
 import java.util.*;
-import java.com.bitzh.hospitalsystem.Utils.DatabaseConnectionManager;
+import com.bitzh.hospitalsystem.Utils.DatabaseConnectionManager;
 
 //这个类包含了与预约表进行交互的方法，如添加预约、删除预约、修改预约信息和查看预约列表。
 public class AppointmentDao {
